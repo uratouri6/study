@@ -3,7 +3,7 @@ object FizzBuzz extends App {
   fizzbuzz(100)
 
   def fizzbuzz(n:Int) {
-    for (i: Int <- 1 to n) {
+    for (i <- 1 to n) {
       if (i % 3 == 0 && i % 5 == 0) {
         println("FizzBuzz")
       }
